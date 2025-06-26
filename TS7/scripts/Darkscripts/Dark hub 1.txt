@@ -1,0 +1,2724 @@
+local args = {
+    [1] = "RolePlayName",
+    [2] = "\217\133\217\139\216\183\217\144\217\136\217\140\216\177 \216\162\217\132\217\142\216\179\217\144\218\169\217\146\216\177\216\168\217\139\216\170\217\140 \216\179\217\144\216\172\217\145\216\162\216\175\217\141"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+
+local args = {
+    [1] = "RolePlayBio",
+    [2] = "\196\142\195\131\197\152\208\140 \196\164\199\151\198\129"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+
+local player = game.Players.LocalPlayer
+local gui = Instance.new("ScreenGui", player:WaitForChild("PlayerGui"))
+gui.Name = "DeltaWelcome"
+gui.ResetOnSpawn = false
+
+local main = Instance.new("Frame")
+main.Parent = gui
+main.AnchorPoint = Vector2.new(0.5, 0.5)
+main.Position = UDim2.new(0.5, 0, 0.4, 0)
+main.Size = UDim2.new(0, 450, 0, 150)
+main.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+main.BackgroundTransparency = 0.2
+main.BorderSizePixel = 0
+main.Visible = false
+
+local corner = Instance.new("UICorner", main)
+corner.CornerRadius = UDim.new(0, 20)
+
+-- الأيقونة على اليسار
+local icon = Instance.new("ImageLabel", main)
+icon.Size = UDim2.new(0, 60, 0, 60)
+icon.Position = UDim2.new(0, 10, 0, 10)
+icon.BackgroundTransparency = 1
+icon.Image = "rbxassetid://131337234636792" -- غيّر الـID حسب رغبتك
+
+-- النص
+local text = Instance.new("TextLabel", main)
+text.Size = UDim2.new(1, -80, 1, -20)
+text.Position = UDim2.new(0, 80, 0, 10)
+text.BackgroundTransparency = 1
+text.Text = "مطور سكربت سجاد!"
+text.TextColor3 = Color3.new(1, 1, 1)
+text.Font = Enum.Font.GothamBold
+text.TextScaled = true
+text.TextWrapped = true
+text.TextXAlignment = Enum.TextXAlignment.Left
+text.TextYAlignment = Enum.TextYAlignment.Center
+
+-- أنميشن الدخول
+main.Visible = true
+main.BackgroundTransparency = 1
+text.TextTransparency = 1
+icon.ImageTransparency = 1
+
+for i = 1, 10 do
+	main.BackgroundTransparency -= 0.08
+	text.TextTransparency -= 0.1
+	icon.ImageTransparency -= 0.1
+	wait(0.03)
+end
+
+wait(5) -- كم ثانية تبقى
+
+-- أنميشن الخروج
+for i = 1, 10 do
+	main.BackgroundTransparency += 0.08
+	text.TextTransparency += 0.1
+	icon.ImageTransparency += 0.1
+	wait(0.03)
+end
+
+gui:Destroy()
+wait(0.1)
+game.StarterGui:SetCore("SendNotification", {
+    Title = " جاري تشغيل";
+    Text = "جاري تشغيل"; -- ARAB TEAM
+    Duration = 5;
+})
+wait(0.1)
+game.StarterGui:SetCore("SendNotification", {
+    Title = " المطور سجاد";
+    Text = "المطور سجاد"; -- ARAB TEAM
+    Duration = 5;
+})
+
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Sadfffaj/-/refs/heads/main/%D8%AC%D8%A7%D8%B1%D9%8A%20%D8%AA%D8%B9%D9%84%D9%85%20%D8%A7%D9%84%D9%87.txt")))()
+MakeWindow({
+  Hub = {
+    Title = "DARK HUH",
+    Animation = "DARK HUH"
+  },
+    Key = {
+    KeySystem = true,
+    Title = "Key System",
+    Description = "تلكه المفتاح بقناتي تلي ",
+    KeyLink = "https://t.me/xxx90xxxiii",
+    Keys = {"SAD55"},
+    Notifi = {
+      Notifications = true,
+      CorrectKey = "المفتاح صحيح",
+      Incorrectkey = "المفتاح خطأ",
+      CopyKeyLink = "تم النسخ في الحافظة"
+    }
+  }
+})
+MinimizeButton({
+  Image = "rbxassetid://98360849741395",
+  Size = {50, 50},
+  Color = Color3.fromRGB(255, 125, 0),
+  Corner = true,
+  Stroke = false,
+  StrokeColor = Color3.fromRGB(255, 125, 0)
+})
+
+local Main = MakeTab({Name = "معلومات"})
+AddDiscord(Main, {
+    DiscordLink = "https://t.me/xxx90xxxiii",
+    DiscordIcon = "rbxassetid://98360849741395",
+    DiscordTitle = "انضم لقناتي لتعرف كلشي جديد",
+    })
+AddDiscord(Main, {
+    DiscordLink = "https://t.me/xxx22zx",
+    DiscordIcon = "rbxassetid://98360849741395",
+    DiscordTitle = "كروبنا",
+    })
+AddButton(Main, {
+  Name = "نسخ حسابي روبلوكس",
+  Callback = function()
+    setclipboard('SAGAD455')
+  end
+})
+AddButton(Main, {
+  Name = "نسخ حسابي تيك توك",
+  Callback = function()
+    setclipboard('8.9v3')
+  end
+})
+
+local Main = MakeTab({Name = "كلشي وكلاشي"})
+
+AddButton(Main, {
+  Name = "رجل مقطوعه ",
+  Callback = function()
+    local args = {
+    [1] = {
+        [1] = 1,
+        [2] = 1,
+        [3] = 1,
+        [4] = 139607718,
+        [5] = 1,
+        [6] = 1
+    }
+}
+
+game:GetService("ReplicatedStorage").Remotes.ChangeCharacterBody:InvokeServer(unpack(args))
+end
+})
+
+AddButton(Main, {
+  Name = "رجل حديدة",
+  Callback = function()
+    local args = {
+    [1] = {
+        [1] = 1,
+        [2] = 1,
+        [3] = 1,
+        [4] = 17500249989,
+        [5] = 1,
+        [6] = 1
+    }
+}
+
+game:GetService("ReplicatedStorage").Remotes.ChangeCharacterBody:InvokeServer(unpack(args))
+
+  end
+})
+
+AddButton(Main, {
+  Name = "راس مخفي",
+  Callback = function()
+    local args = {
+    [1] = "CharacterChange",
+    [2] = {
+        [1] = 1,
+        [2] = 1,
+        [3] = 1,
+        [4] = 1,
+        [5] = 1,
+        [6] = 134082579
+    },
+    [3] = "Roblox20"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
+wait(0.1)
+  end
+})
+
+AddButton(Main, {
+  Name = "راس روبوت",
+  Callback = function()
+    local args = {
+    [1] = 3210773801
+}
+
+game:GetService("ReplicatedStorage").Remotes.Wear:InvokeServer(unpack(args))
+
+  end
+})
+
+AddButton(Main, {
+  Name = "راس روكر",
+  Callback = function()
+    local args = {
+    [1] = 134082579
+}
+
+game:GetService("ReplicatedStorage").Remotes.Wear:InvokeServer(unpack(args))
+
+  end
+})
+
+AddButton(Main, {
+  Name = "راس كيوت",
+  Callback = function()
+    local args = {
+    [1] = "CharacterChange",
+    [2] = {
+        [1] = 1,
+        [2] = 1,
+        [3] = 1,
+        [4] = 1,
+        [5] = 1,
+        [6] = 746767604
+    },
+    [3] = "Roblox20"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
+  end
+})
+
+
+AddButton(Main, {
+  Name = "جسم بنت",
+  Callback = function()
+  local args = {
+    [1] = {
+        [1] = 96491916349570,
+        [2] = 76683091425509,
+        [3] = 75159926897589,
+        [4] = 1,
+        [5] = 1,
+        [6] = 1
+    }
+}
+
+game:GetService("ReplicatedStorage").Remotes.ChangeCharacterBody:InvokeServer(unpack(args))
+
+wait(0.1)
+end
+})
+  AddButton(Main, {
+  Name = " القزم",
+  Callback = function()
+    print("Clicked")
+    local args = {
+    [1] = {
+        [1] = 14579958702,
+        [2] = 14579959062,
+        [3] = 14579959191,
+        [4] = 14579959249,
+        [5] = 14579963667,
+        [6] = 1
+    }
+}
+
+game:GetService("ReplicatedStorage").Remotes.ChangeCharacterBody:InvokeServer(unpack(args))
+
+wait(0.1)
+  end
+})
+AddButton(Main, {
+  Name = "قزومي",
+  Callback = function()
+    print("Clicked")
+    local args = {
+    [1] = "CharacterChange",
+    [2] = {
+        [1] = 18599265011,
+        [2] = 18599265151,
+        [3] = 18599265190,
+        [4] = 18599265270,
+        [5] = 18599264796,
+        [6] = 1
+    },
+    [3] = "YinHub"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
+wait(0.1)
+  end
+})
+
+AddButton(Main, {
+  Name = "عيون حادة",
+  Callback = function()
+  local args = {
+    [1] = 16580493236
+}
+
+game:GetService("ReplicatedStorage").Remotes.Wear:InvokeServer(unpack(args))
+
+   end
+})
+AddButton(Main, {
+  Name = "رجل العظام الرصاصي",
+  Callback = function()
+    print("Clicked")local args = {
+    [1] = "CharacterChange",
+    [2] = {
+        [1] = 1,
+        [2] = 1,
+        [3] = 1,
+        [4] = 17500249989,
+        [5] = 1,
+        [6] = 1
+    },
+    [3] = "Roblox20"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
+  end
+})
+AddButton(Main, {
+  Name = "رجل العظام السود",
+  Callback = function()
+    local args = {
+    [1] = {
+        [1] = 1,
+        [2] = 1,
+        [3] = 1,
+        [4] = 14547162578,
+        [5] = 1,
+        [6] = 1
+    }
+}
+
+game:GetService("ReplicatedStorage").Remotes.ChangeCharacterBody:InvokeServer(unpack(args))
+
+  end
+})
+AddButton(Main, {
+  Name = "رجل رول",
+  Callback = function()
+    local args = {
+    [1] = {
+        [1] = 1,
+        [2] = 1,
+        [3] = 1,
+        [4] = 3230472745,
+        [5] = 3230470862,
+        [6] = 1
+    }
+}
+
+game:GetService("ReplicatedStorage").Remotes.ChangeCharacterBody:InvokeServer(unpack(args))
+
+  end
+})
+
+AddButton(Main, {
+  Name = "جسم بنت ضعيف خصر",
+  Callback = function()
+local args = {
+    [1] = {
+        [1] = 74302534603111,
+        [2] = 76683091425509,
+        [3] = 75159926897589,
+        [4] = 1,
+        [5] = 1,
+        [6] = 1
+    }
+}
+
+game:GetService("ReplicatedStorage").Remotes.ChangeCharacterBody:InvokeServer(unpack(args))
+
+  end
+})
+
+
+AddButton(Main, {
+  Name = "بنية جسم",
+  Callback = function()
+local args = {
+    [1] = {
+        [1] = 96491916349570,
+        [2] = 14854350570,
+        [3] = 14854350451,
+        [4] = 1,
+        [5] = 1,
+        [6] = 1
+    }
+}
+
+game:GetService("ReplicatedStorage").Remotes.ChangeCharacterBody:InvokeServer(unpack(args))
+
+
+  end
+})
+
+AddButton(Main, {
+  Name = "بنت جسم",
+  Callback = function()
+local args = {
+    [1] = {
+        [1] = 16214246112,
+        [2] = 16214249513,
+        [3] = 16214251181,
+        [4] = 1,
+        [5] = 1,
+        [6] = 1
+    }
+}
+
+game:GetService("ReplicatedStorage").Remotes.ChangeCharacterBody:InvokeServer(unpack(args))
+
+
+  end
+})
+
+AddButton(Main, {
+  Name = "جسم بنت",
+  Callback = function()
+local args = {
+    [1] = {
+        [1] = 15539008532,
+        [2] = 15539008875,
+        [3] = 15539008680,
+        [4] = 15539008795,
+        [5] = 15539011945,
+        [6] = 1
+    }
+}
+
+game:GetService("ReplicatedStorage").Remotes.ChangeCharacterBody:InvokeServer(unpack(args))
+
+
+  end
+})
+
+AddButton(Main, {
+  Name = "جسم بنت",
+  Callback = function()
+local args = {
+    [1] = {
+        [1] = 14861800638,
+        [2] = 14861800626,
+        [3] = 14861801452,
+        [4] = 14861800627,
+        [5] = 14861801454,
+        [6] = 1
+    }
+}
+
+game:GetService("ReplicatedStorage").Remotes.ChangeCharacterBody:InvokeServer(unpack(args))
+
+
+  end
+})
+
+AddButton(Main, {
+  Name = "جسم ولد",
+  Callback = function()
+local args = {
+    [1] = {
+        [1] = 17754346388,
+        [2] = 1,
+        [3] = 1,
+        [4] = 1,
+        [5] = 1,
+        [6] = 1
+    }
+}
+
+game:GetService("ReplicatedStorage").Remotes.ChangeCharacterBody:InvokeServer(unpack(args))
+
+
+  end
+})
+
+AddButton(Main, {
+  Name = "جسم ولد ضعيفم",
+  Callback = function()
+local args = {
+    [1] = {
+        [1] = 92757812011061,
+        [2] = 99519402284266,
+        [3] = 115905570886697,
+        [4] = 1,
+        [5] = 1,
+        [6] = 1
+    }
+}
+
+game:GetService("ReplicatedStorage").Remotes.ChangeCharacterBody:InvokeServer(unpack(args))
+
+
+  end
+})
+
+
+AddButton(Main, {
+  Name = "جسم ولد كوبي",
+  Callback = function()
+local args = {
+    [1] = {
+        [1] = 86499666,
+        [2] = 27112039,
+        [3] = 27112052,
+        [4] = 27112068,
+        [5] = 27112056,
+        [6] = 1
+    }
+}
+
+game:GetService("ReplicatedStorage").Remotes.ChangeCharacterBody:InvokeServer(unpack(args))
+
+  end
+})
+
+AddButton(Main, {
+  Name = "جسم ولد رول",
+  Callback = function()
+local args = {
+    [1] = {
+        [1] = 27112025,
+        [2] = 27112039,
+        [3] = 27112052,
+        [4] = 3230472745,
+        [5] = 3230470862,
+        [6] = 1
+    }
+}
+
+game:GetService("ReplicatedStorage").Remotes.ChangeCharacterBody:InvokeServer(unpack(args))
+
+  end
+})
+
+AddButton(Main, {
+  Name = "سيغما بوي",
+  Callback = function()
+local args = {
+    [1] = {
+        [1] = 18178775358,
+        [2] = 18178775182,
+        [3] = 18178775725,
+        [4] = 18178777453,
+        [5] = 18178775695,
+        [6] = 1
+    }
+}
+
+game:GetService("ReplicatedStorage").Remotes.ChangeCharacterBody:InvokeServer(unpack(args))
+
+end})
+
+AddButton(Main, {
+  Name = "جسم قزم ",
+  Callback = function()
+local args = {
+    [1] = {
+        [1] = 14579958702,
+        [2] = 14579959062,
+        [3] = 14579959191,
+        [4] = 14579959249,
+        [5] = 14579963667,
+        [6] = 1
+    }
+}
+
+game:GetService("ReplicatedStorage").Remotes.ChangeCharacterBody:InvokeServer(unpack(args))
+
+
+  end
+})
+
+AddButton(Main, {
+  Name = "جسم قزم2",
+  Callback = function()
+local args = {
+    [1] = {
+        [1] = 77813057823038,
+        [2] = 135110043370135,
+        [3] = 116607813654019,
+        [4] = 138966229804486,
+        [5] = 128961183894053,
+        [6] = 1
+    }
+}
+
+game:GetService("ReplicatedStorage").Remotes.ChangeCharacterBody:InvokeServer(unpack(args))
+
+
+  end
+})
+AddButton(Main, {
+  Name = "3جسم قزم",
+  Callback = function()
+local args = {
+    [1] = {
+        [1] = 120973199097564,
+        [2] = 118345433416023,
+        [3] = 112849465115864,
+        [4] = 78321005147549,
+        [5] = 106586789635639,
+        [6] = 1
+    }
+}
+
+game:GetService("ReplicatedStorage").Remotes.ChangeCharacterBody:InvokeServer(unpack(args))
+
+
+  end
+})
+AddButton(Main, {
+  Name = "جسم قزم",
+  Callback = function()
+local args = {
+    [1] = {
+        [1] = 126267841602936,
+        [2] = 77530451194918,
+        [3] = 123471958406889,
+        [4] = 117042768644173,
+        [5] = 131948590344338,
+        [6] = 1
+    }
+}
+
+game:GetService("ReplicatedStorage").Remotes.ChangeCharacterBody:InvokeServer(unpack(args))
+
+
+  end
+})
+AddButton(Main, {
+  Name = "الهامستر",
+  Callback = function()
+  local args = {
+    [1] = {
+        [1] = 14898536974,
+        [2] = 14898536957,
+        [3] = 14898537277,
+        [4] = 14898537300,
+        [5] = 14898537292,
+        [6] = 14898536975
+    }
+}
+
+game:GetService("ReplicatedStorage").Remotes.ChangeCharacterBody:InvokeServer(unpack(args))
+
+  end
+})
+local Main = MakeTab({Name = "التنقل"})
+AddButton(Main, {
+  Name = "اداة تنقل وين متريد توديك",
+  Callback = function()
+    local player = game.Players.LocalPlayer
+    local mouse = player:GetMouse()
+
+    local function createTeleportTool()
+        local tool = Instance.new("Tool")
+        tool.RequiresHandle = false
+        tool.Name = " تنقل"
+
+        tool.Activated:Connect(function()
+            local hitPos = mouse.Hit.p + Vector3.new(0, 2.5, 0)
+            local pos = CFrame.new(hitPos)
+            player.Character.HumanoidRootPart.CFrame = pos
+        end)
+
+        tool.Parent = player.Backpack
+    end
+
+    -- Cria a ferramenta inicialmente
+    createTeleportTool()
+
+    -- Adiciona a ferramenta novamente quando o personagem é reaparecido
+    player.CharacterAdded:Connect(function()
+        wait(0.1) -- Espera um curto período de tempo para garantir que o inventário seja carregado
+        createTeleportTool()
+    end)
+  end
+})
+
+AddButton(Main, {
+    Name = "لوحة 1",
+    Callback = function()
+        local plr = game.Players.LocalPlayer
+        local char = plr.Character
+        local hrp = char:FindFirstChild("HumanoidRootPart")
+
+        if hrp then
+            hrp.CFrame = CFrame.new(-242.68215942382812, 89.68680572509766, -549.6495361328125)
+        else
+            warn("HumanoidRootPart not found")
+        end
+    end
+})
+
+AddButton(Main, {
+    Name = "لوحة 2",
+    Callback = function()
+        local plr = game.Players.LocalPlayer
+        local char = plr.Character
+        local hrp = char:FindFirstChild("HumanoidRootPart")
+
+        if hrp then
+            hrp.CFrame = CFrame.new(-630.480712890625, 26.586822509765625, 365.14093017578125)
+        else
+            warn("HumanoidRootPart not found")
+        end
+    end
+})
+
+-- Function to teleport to Teleport
+local function teleportToGasStation()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(192, 4, 272)
+end
+
+AddButton(Main, {
+    Name = "ورا البيوت",
+    Description = "",
+    Callback = teleportToGasStation
+})
+
+-- Function to teleport to Teleport
+local function teleportToCenter()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(136, 4, 117)
+end
+
+AddButton(Main, {
+    Name = "قدام البيوت",
+    Description = "",
+    Callback = teleportToCenter
+})
+
+-- Function to teleport to Criminal
+local function teleportToCriminal()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-119, -28, 235)
+end
+
+AddButton(Main, {
+    Name = "مكان أسلحة",
+    Description = "Teleporta para as coordenadas do Criminal",
+    Callback = teleportToCriminal
+})
+
+-- Function to teleport to House Abandoned
+local function teleportToHouseAbandoned()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(986, 4, 63)
+end
+
+AddButton(Main, {
+    Name = "بيت قفير",
+    Description = "Teleporta para as coordenadas da Casa Abandonada",
+    Callback = teleportToHouseAbandoned
+})
+
+-- Function to teleport to Portal Agency
+local function teleportToPortalAgency()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(672, 4, -296)
+end
+
+AddButton(Main, {
+    Name = "مكان سري",
+    Description = "Teleporta para as coordenadas do Portal da Agência",
+    Callback = teleportToPortalAgency
+})
+
+-- Function to teleport to Secret Location
+local function teleportToSecretLocation()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(505, -75, 143)
+end
+
+AddButton(Main, {
+    Name = "جو الأرض",
+    Description = "Teleporta para as coordenadas do Local Secreto",
+    Callback = teleportToSecretLocation
+})
+
+-- Function to teleport to School
+local function teleportToSchool()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-312, 4, 211)
+end
+
+AddButton(Main, {
+    Name = "مدرسة",
+    Description = "Teleporta para as coordenadas da Escola",
+    Callback = teleportToSchool
+})
+
+-- Function to teleport to Brooks Diner
+local function teleportToBrooksDiner()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(161, 8, 52)
+end
+
+AddButton(Main, {
+    Name = "قهوة",
+    Description = "Teleporta para as coordenadas do Brooks Diner",
+    Callback = teleportToBrooksDiner
+})
+
+local function teleportToBrooksDiner()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-26, 4, -23)
+end
+
+AddButton(Main, {
+    Name = "البداية",
+    Description = "Teleporta para as coordenadas do Brooks Diner",
+    Callback = teleportToBrooksDiner
+})
+
+
+-- Function to teleport to Hospital
+local function teleportToHospital()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-309, 4, 71)
+end
+
+AddButton(Main, {
+    Name = "مستشفى",
+    Description = "Teleporta para as coordenadas do Hospital",
+    Callback = teleportToHospital
+})
+
+-- Function to teleport to Arch
+local function teleportToArch()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-589, 141, -59)
+end
+
+AddButton(Main, {
+    Name = "فوق الجسر",
+    Description = "Teleporta para as coordenadas do Arco",
+    Callback = teleportToArch
+})
+
+-- Function to teleport to Agency
+local function teleportToAgency()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(179, 4, -464)
+end
+
+AddButton(Main, {
+    Name = "مكان الكهرباء",
+    Description = "Teleporta para as coordenadas da Agência",
+    Callback = teleportToAgency
+})
+
+-- Function to teleport to Secret Room in Workshop
+local function teleportToSecretRoomInWorkshop()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0, 4, -495)
+end
+
+AddButton(Main, {
+    Name = "جو الأرض",
+    Description = "Teleporta para as coordenadas da Sala Secreta na Oficina",
+    Callback = teleportToSecretRoomInWorkshop
+})
+
+-- Function to teleport to Secret Room 2
+local function teleportToSecretRoom2()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-343, 4, -613)
+end
+
+AddButton(Main, {
+    Name = "جو الأرض 2",
+    Description = "Teleporta para as coordenadas da Sala Secreta 2",
+    Callback = teleportToSecretRoom2
+})
+
+-- Function to teleport to Island 1
+local function teleportToIsland1()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1925, 23, 127)
+end
+
+AddButton(Main, {
+    Name = "جزيرة 1",
+    Description = "Teleporta para as coordenadas da Ilha 1",
+    Callback = teleportToIsland1
+})
+
+-- Function to teleport to Airport
+local function teleportToAirport()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(310, 5, 31)
+end
+
+AddButton(Main, {
+    Name = "مطار",
+    Description = "Teleporta para as coordenadas do Aeroporto",
+    Callback = teleportToAirport
+})
+
+-- Function to teleport to Hotel Center
+local function teleportToHotelCenter()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(182, 4, 150)
+end
+
+AddButton(Main, {
+    Name = "البيوت",
+    Description = "Teleporta para as coordenadas do Centro dos Hotéis",
+    Callback = teleportToHotelCenter
+})
+
+-- Function to teleport to Lower Houses
+local function teleportToLowerHouses()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(63, 35, 410)
+end
+
+AddButton(Main, {
+    Name = " نص الشارع",
+    Description = "Teleporta para as coordenadas das Casas Inferiores",
+    Callback = teleportToLowerHouses
+})
+
+-- Function to teleport to Mountain 1
+local function teleportToMountain1()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-670, 251, 765)
+end
+
+AddButton(Main, {
+    Name = "فوق الجبل",
+    Description = "Teleporta para as coordenadas da Montanha 1",
+    Callback = teleportToMountain1
+})
+
+-- Function to teleport to On Top of School
+local function teleportToOnTopOfSchool()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-370, 50, 173)
+end
+
+AddButton(Main, {
+    Name = "فوق المدرسة",
+    Description = "Teleporta para as coordenadas Em Cima da Escola",
+    Callback = teleportToOnTopOfSchool
+})
+local Main = MakeTab({Name = "االاعب"})
+AddButton(Main, {
+  Name = "Rejoin | اعادة دخول الى سيرفر",
+  Callback = function()
+    local ts = game:GetService("TeleportService")
+				local p = game:GetService("Players").LocalPlayer
+				ts:Teleport(game.PlaceId, p)
+    print('Hello!')
+  end
+})
+AddButton(Main, {
+  Name = "احذف جميع الأشياء الي في ايدك",
+  Callback = function()
+    local args = {
+    [1] = "ClearAllTools"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clea1rTool1s"):FireServer(unpack(args))
+  end
+})
+AddButton(Main, {
+  Name = "اقتل نفسك",
+  Callback = function()
+    game.Players.LocalPlayer.Character.Humanoid.Health = 0
+  end
+})
+AddButton(Main, {
+  Name = "ازالة لاق • Destroy Lag",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/FPSBooster.lua"))()
+  end
+})
+
+AddTextBox(Main, {
+  Name = "سرعة | Speed",
+  Default = "",
+  PlaceholderText = "ادخل رقم",
+  ClearText = true,
+  Callback = function(value)
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value
+ end
+})
+AddTextBox(Main, {
+  Name = "قفز | Jump",
+  Default = "",
+  PlaceholderText = "ادخل رقم",
+  ClearText = true,
+  Callback = function(value)
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = value
+  end
+})
+AddTextBox(Main, {
+  Name = "Fov | شاشه",
+  Default = "",
+  PlaceholderText = "ادخل رقم",
+  ClearText = true,
+  Callback = function(value)
+local FovNumber = value
+local Camera = workspace.CurrentCamera
+Camera.FieldOfView = FovNumber
+  end
+})
+AddTextBox(Main, {
+  Name = "Spin | دوران",
+  Default = "",
+  PlaceholderText = "ادخل رقم",
+  ClearText = true,
+  Callback = function(Value)
+    getgenv().Spinspeed = Value
+
+local Spin = Instance.new'BodyAngularVelocity'
+Spin.Parent = game:GetService'Players'.LocalPlayer.Character:FindFirstChild'HumanoidRootPart'
+Spin.MaxTorque = Vector3.new(0, math.huge, 100)
+wait(0.1)
+Spin.AngularVelocity = Vector3.new(100,Spinspeed,0)
+  end
+})
+AddButton(Main, {
+  Name = "كنبه | Couch",
+  Callback = function()
+    local args={[1]="PickingTools",[2]="Couch"};game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(unpack(args))
+  end
+})
+local infiniteJumpEnabled = false
+
+-- Conectar o evento de pulo somente uma vez
+local infiniteJumpConnection
+
+-- Função de callback para o botão de alternância de pulo infinito
+local function onInfiniteJumpToggle(value)
+    infiniteJumpEnabled = value
+    print("Infinite Jump Enabled:", infiniteJumpEnabled)
+
+    -- Conectar o evento de pulo somente uma vez
+    if not infiniteJumpConnection then
+        infiniteJumpConnection = game:GetService("UserInputService").JumpRequest:Connect(function()
+            if infiniteJumpEnabled then
+                local player = game.Players.LocalPlayer
+                local character = player.Character
+                if character and character:FindFirstChildOfClass("Humanoid") then
+                    character:FindFirstChildOfClass("Humanoid"):ChangeState("Jumping")
+                end
+            end
+        end)
+    end
+end
+
+-- Adiciona o botão de alternância "Infinitejum
+    local Toggle = AddToggle(Main, {
+    Name = "قفز لا نهائي | Inf Jump",
+    Default = false,
+    Callback = onInfiniteJumpToggle
+})
+function MakeNotifi(notification)
+    game.StarterGui:SetCore("SendNotification", {
+        Title = notification.Title;
+        Text = notification.Text;
+        Duration = notification.Time;
+    })
+end
+function MakeNotifi(notification)
+    game.StarterGui:SetCore("SendNotification", {
+        Title = notification.Title;
+        Text = notification.Text;
+        Duration = notification.Time;
+    })
+end
+
+-- Variáveis e funções para a visualização dos jogadores
+local viewEnabled = false
+local selectedViewPlayer = nil
+local characterAddedConnection = nil
+
+local function toggleView(enabled)
+    if enabled then
+        if selectedViewPlayer then
+            local player = selectedViewPlayer
+            if player then
+                game.Workspace.CurrentCamera.CameraSubject = player.Character
+                if characterAddedConnection then
+                    characterAddedConnection:Disconnect()
+                end
+                characterAddedConnection = player.CharacterAdded:Connect(function(character)
+                    game.Workspace.CurrentCamera.CameraSubject = character
+                end)
+                MakeNotifi({
+                    Title = "Visualizando " .. player.Name,
+                    Text = "Você está visualizando o jogador: " .. player.Name,
+                    Time = 6
+                })
+            else
+                print("Jogador não encontrado.")
+                viewEnabled = false
+            end
+        else
+            print("Nenhum jogador selecionado para a visualização.")
+            viewEnabled = false
+        end
+    else
+        if characterAddedConnection then
+            characterAddedConnection:Disconnect()
+            characterAddedConnection = nil
+        end
+        game.Workspace.CurrentCamera.CameraSubject = game.Players.LocalPlayer.Character
+    end
+end
+
+local value = "" -- Variável para armazenar o nome digitado
+
+local function findPlayerByPartialNameOrNickname(partialName)
+    value = partialName -- Atualiza a variável com o nome digitado completo
+    for _, player in ipairs(game.Players:GetPlayers()) do
+        if player.Name:lower():find(partialName:lower(), 1, true) or (player.DisplayName and player.DisplayName:lower():find(partialName:lower(), 1, true)) then
+            return player
+        end
+    end
+    return nil
+end
+
+-- Adicionando a caixa de texto para entrada do nome ou apelido do jogador
+AddTextBox(Main, {
+    Name = " دخل اول ثلاث أحرف من اسم اللاعب",
+    Default = "",
+    PlaceholderText = "دخل اسم اللاعب",
+    ClearText = true,
+    Callback = function(value)
+        if value == "" then
+            MakeNotifi({
+                Title = "Erro",
+                Text = "Nome do jogador não foi digitado.",
+                Time = 5
+            })
+            if viewEnabled then
+                toggleView(false)
+            end
+            return
+        end
+
+        selectedViewPlayer = findPlayerByPartialNameOrNickname(value)
+        if selectedViewPlayer then
+            print("Jogador encontrado: " .. selectedViewPlayer.Name)
+            if viewEnabled then
+                toggleView(false)
+                toggleView(true)
+            end
+        else
+            MakeNotifi({
+                Title = "Erro",
+                Text = "Nenhum jogador encontrado com esse nome ou apelido.",
+                Time = 7
+            })
+            if viewEnabled then
+                toggleView(false)
+            end
+        end
+    end
+})
+
+-- Adicionando o toggle para ativar/desativar a visualização
+AddToggle(Main, {
+    Name = "شاهد | View",
+    Default = false,
+    Callback = function(enabled)
+        viewEnabled = enabled
+        toggleView(enabled)
+    end
+})
+
+-- Conectando eventos de jogador removido
+game.Players.PlayerRemoving:Connect(function(player)
+    if selectedViewPlayer == player then
+        selectedViewPlayer = nil
+        if viewEnabled then
+            toggleView(false)
+            MakeNotifi({
+                Title = "Jogador Saiu",
+                Text = player.Name .. " saiu do jogo. Visualização desativada.",
+                Time = 5
+            })
+        end
+    end
+end)
+
+-- Função para manter a câmera no jogador selecionado
+local function maintainView()
+    while wait() do
+        if viewEnabled and selectedViewPlayer then
+            local player = selectedViewPlayer
+            if player and game.Workspace.CurrentCamera.CameraSubject ~= player.Character then
+                game.Workspace.CurrentCamera.CameraSubject = player.Character
+            end
+        end
+    end
+end
+AddButton(Main, {
+  Name = "اختفاء اللاعب",
+  Callback = function()
+    local args = {
+    [1] = "CharacterSizeUp",
+    [2] = 6
+}
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "إلغاء اختفاء",
+  Callback = function()
+    local args = {
+    [1] = "CharacterSizeUp",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
+  end
+})
+-- Variável para controlar o estado do Noclip
+local noclipEnabled = false
+local runService = game:GetService("RunService")
+
+-- Função para definir CanCollide para todas as partes do personagem
+local function setCharacterCanCollide(character, canCollide)
+    for _, part in ipairs(character:GetDescendants()) do
+        if part:IsA("BasePart") then
+            part.CanCollide = canCollide
+        end
+    end
+end
+
+-- Função de callback para o botão de alternância de Noclip
+local function onNoclipToggle(value)
+    noclipEnabled = value
+    print("Noclip Enabled:", noclipEnabled)
+
+    local player = game.Players.LocalPlayer
+    local character = player.Character
+
+    if noclipEnabled then
+        -- Inicia um loop para continuamente definir CanCollide
+        noclipLoop = runService.Stepped:Connect(function()
+            if character then
+                setCharacterCanCollide(character, false)
+            end
+        end)
+    else
+        -- Desativa o loop e restaura CanCollide
+        if noclipLoop then
+            noclipLoop:Disconnect()
+        end
+        if character then
+            setCharacterCanCollide(character, true)
+        end
+    end
+end
+
+-- Adiciona o botão de alternância "Noclip"
+local Toggle = AddToggle(Main, {
+    Name = " اختراق الجدار",
+    Default = false,
+    Callback = onNoclipToggle
+})
+AddButton(Main, {
+  Name = "مسجل مجاني",
+  Callback = function(s)
+_G.boomboxb = game:GetObjects('rbxassetid://740618400')[1]
+_G.boomboxb.Parent = game:GetService'Players'.LocalPlayer.Backpack
+loadstring(_G.boomboxb.Client.Source)()
+loadstring(_G.boomboxb.Server.Source)()
+ end
+})
+local section = AddSection(Main, {"قتل بس قبله اخذ قنفة"})
+AddButton(Main, {
+  Name = "كنبة",
+  Callback = function()
+    local args={[1]="PickingTools",[2]="Couch"};game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(unpack(args))
+  end
+})
+
+-- Serviços necessários
+local playerService = game:GetService('Players')
+local runService = game:GetService('RunService')
+local player = playerService.LocalPlayer
+
+-- Variáveis globais
+local selectedPlayer = nil
+local selectedKillAdvancedPlayer = nil
+local couchEquipped = false
+local playerDropdownV13
+
+-- Função para obter a lista de jogadores
+local function getPlayerList()
+    local playerList = {}
+    for _, player in ipairs(playerService:GetPlayers()) do
+        if player ~= playerService.LocalPlayer then
+            table.insert(playerList, player.Name)
+        end
+    end
+    return playerList
+end
+
+-- Função para atualizar o dropdown
+local function updateDropdown(dropdown)
+    UpdateDropdown(dropdown, getPlayerList())
+end
+
+-- Função para encontrar jogador por nome
+local function gplr(String)
+    local strl = String:lower()
+    local Found = {}
+    for _, v in pairs(playerService:GetPlayers()) do
+        if v.Name:lower():sub(1, #strl) == strl then
+            table.insert(Found, v)
+        end
+    end
+    return Found
+end
+
+-- Função para flingar jogador (V13)
+local function flingPlayer(targetName)
+    local Target = gplr(targetName)
+    if Target[1] then
+        Target = Target[1]
+
+        local Thrust = Instance.new('BodyThrust', player.Character.HumanoidRootPart)
+        Thrust.Force = Vector3.new(999, 999, 999)
+        Thrust.Name = "FlingForce"
+        repeat
+            player.Character.HumanoidRootPart.CFrame = Target.Character.HumanoidRootPart.CFrame
+            Thrust.Location = Target.Character.HumanoidRootPart.Position
+            runService.Heartbeat:Wait()
+        until not Target.Character:FindFirstChild("Head")
+    end
+end
+
+-- Interface para Fling V13
+playerDropdownV13 = AddDropdown(Main, {
+    Name = "اختار الاعب الي تريده",
+    Default = "",
+    Options = getPlayerList(),
+    Callback = function(value)
+        selectedPlayer = value
+    end
+})
+
+AddButton(Main, {
+    Name = "قتل الاعب",
+    Callback = function()
+        if selectedPlayer then
+            flingPlayer(selectedPlayer)
+        end
+    end
+})
+
+-- Atualiza a lista de jogadores quando os jogadores entram ou saem do jogo
+playerService.PlayerAdded:Connect(function()
+    updateDropdown(playerDropdownV13)
+end)
+
+playerService.PlayerRemoving:Connect(function()
+    updateDropdown(playerDropdownV13)
+end)
+
+-- Atualiza a lista de jogadores ao iniciar o script
+updateDropdown(playerDropdownV13)
+
+-- Serviços necessários
+local playerService = game:GetService('Players')
+local runService = game:GetService('RunService')
+local localPlayer = playerService.LocalPlayer
+
+-- Variáveis globais
+local flingV14Toggle = false
+local currentPlayerIndex = 1
+local flingV14Connection
+local players
+
+-- Função para teleportar para a coordenada específica
+local function teleportToCoordinate()
+    local teleportPosition = Vector3.new(-58, 54, -183) -- Coordenada para onde você deseja teleportar
+    if localPlayer.Character and localPlayer.Character:FindFirstChild("HumanoidRootPart") then
+        localPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(teleportPosition)
+    end
+end
+
+-- Função para flingar jogadores em sequência
+local function flingPlayersInSequence()
+    if flingV14Toggle then
+        -- Obtém a lista de jogadores uma vez
+        players = playerService:GetPlayers()
+
+        -- Reseta o índice do jogador atual
+        currentPlayerIndex = 1
+
+        -- Looping de teleportes em cada jogador
+        flingV14Connection = runService.Heartbeat:Connect(function()
+            -- Ignora o jogador local
+            while players[currentPlayerIndex] == localPlayer do
+                currentPlayerIndex = currentPlayerIndex + 1
+                if currentPlayerIndex > #players then
+                    currentPlayerIndex = 1
+                end
+            end
+
+            local targetPlayer = players[currentPlayerIndex]
+            if targetPlayer and targetPlayer.Character and targetPlayer.Character:FindFirstChild("HumanoidRootPart") then
+                if localPlayer.Character and localPlayer.Character:FindFirstChild("HumanoidRootPart") then
+                    localPlayer.Character.HumanoidRootPart.CFrame = targetPlayer.Character.HumanoidRootPart.CFrame
+
+                    -- Verifica se o jogador alvo está sentado
+                    if targetPlayer.Character:FindFirstChild("Humanoid") and targetPlayer.Character.Humanoid.SeatPart then
+                        teleportToCoordinate()
+
+                        -- Espera 3 segundos antes de ir para o próximo jogador
+                        wait(5)
+                        currentPlayerIndex = currentPlayerIndex + 1
+
+                        if currentPlayerIndex > #players then
+                            currentPlayerIndex = 1
+                        end
+                    end
+                end
+            end
+        end)
+    end
+end
+
+-- Função de callback para o toggle
+local function onFlingV14Toggle(value)
+    flingV14Toggle = value
+    if flingV14Toggle then
+        flingPlayersInSequence()
+    else
+        -- Desconecta as conexões quando o toggle é desativado
+        if flingV14Connection then
+            flingV14Connection:Disconnect()
+            flingV14Connection = nil
+        end
+    end
+end
+
+-- Adiciona o Toggle para ativar/desativar o Fling V14
+AddButton(Main, {
+  Name = "☠️يعلق السيرفر☠️",
+  Callback = function()
+tools = "FireX"
+        shutdownserver = true
+        if game.Players.LocalPlayer.Character.Humanoid.Sit == true then
+            task.wait()
+            game.Players.LocalPlayer.Character.Humanoid.Sit = false
+        end
+        if game:GetService("Workspace"):FindFirstChild("Camera") then
+            game:GetService("Workspace"):FindFirstChild("Camera"):Destroy()
+        end
+        wait(0.1)
+        if game:GetService("Workspace"):FindFirstChild("Camera") then
+            game:GetService("Workspace"):FindFirstChild("Camera"):Destroy()
+        end
+        game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").WorkspaceCom["001_GiveTools"].FireX.CFrame + Vector3.new(0, -15, 0)
+        task.wait(0.2)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
+        ddos = true
+        for i = 1, 1350 do
+            task.wait()
+            if ddos == false then
+                local args = {
+                    [1] = "ClearAllTools"
+                }
+
+                cleartoolremote:FireServer(unpack(args))
+                game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(9999, -475, 9999)
+                return
+            end
+            if game:GetService("Workspace"):FindFirstChild("Camera") then
+                game:GetService("Workspace"):FindFirstChild("Camera"):Destroy()
+            end
+            if game:GetService("Players").LocalPlayer.Character:FindFirstChild(tools) then
+                game:GetService("Players").LocalPlayer.Character:FindFirstChild(tools):Destroy()
+            end
+            if ddos == false then return end
+            fireclickdetector(game:GetService("Workspace").WorkspaceCom["001_GiveTools"].FireX.ClickDetector, 0)
+        end
+        game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0, -475, 0)
+  end
+})
+AddButton(Main, {
+  Name = "☠️تدمير العالم ☠️",
+  Callback = function()
+    game.Workspace:ClearAllChildren()
+  end
+})
+
+AddButton(Main, {
+  Name = "طرد الكل | kick all",
+  Callback = function()
+            tools = "FireX"
+        shutdownserver = true
+        if game.Players.LocalPlayer.Character.Humanoid.Sit == true then
+            task.wait()
+            game.Players.LocalPlayer.Character.Humanoid.Sit = false
+        end
+        if game:GetService("Workspace"):FindFirstChild("Camera") then
+            game:GetService("Workspace"):FindFirstChild("Camera"):Destroy()
+        end
+        wait(0.1)
+        if game:GetService("Workspace"):FindFirstChild("Camera") then
+            game:GetService("Workspace"):FindFirstChild("Camera"):Destroy()
+        end
+        game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").WorkspaceCom["001_GiveTools"].FireX.CFrame + Vector3.new(0, -15, 0)
+        task.wait(0.2)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
+        ddos = true
+        for i = 1, 1350 do
+            task.wait()
+            if ddos == false then
+                local args = {
+                    [1] = "ClearAllTools"
+                }
+
+                cleartoolremote:FireServer(unpack(args))
+                game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(9999, -475, 9999)
+                return
+            end
+            if game:GetService("Workspace"):FindFirstChild("Camera") then
+                game:GetService("Workspace"):FindFirstChild("Camera"):Destroy()
+            end
+            if game:GetService("Players").LocalPlayer.Character:FindFirstChild(tools) then
+                game:GetService("Players").LocalPlayer.Character:FindFirstChild(tools):Destroy()
+            end
+            if ddos == false then return end
+            fireclickdetector(game:GetService("Workspace").WorkspaceCom["001_GiveTools"].FireX.ClickDetector, 0)
+        end
+        game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0, -475, 0)
+  end
+})
+local Players = game:GetService("Players")
+local UserInputService = game:GetService("UserInputService")
+local RunService = game:GetService("RunService")
+
+local LocalPlayer = Players.LocalPlayer
+local Camera = workspace.CurrentCamera
+local flying = false
+local speed = 50
+local BodyGyro, BodyVelocity
+
+local function Fly()
+    local Character = LocalPlayer.Character
+    if not Character or not Character:FindFirstChild("HumanoidRootPart") then return end
+    local RootPart = Character:FindFirstChild("HumanoidRootPart")
+
+    BodyGyro = Instance.new("BodyGyro", RootPart)
+    BodyGyro.P = 9e4
+    BodyGyro.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+    BodyGyro.CFrame = RootPart.CFrame
+
+    BodyVelocity = Instance.new("BodyVelocity", RootPart)
+    BodyVelocity.Velocity = Vector3.new(0, 0.1, 0)
+    BodyVelocity.MaxForce = Vector3.new(9e9, 9e9, 9e9)
+
+    flying = true
+    Character.Humanoid.PlatformStand = true
+
+    RunService.RenderStepped:Connect(function()
+        if flying then
+            local MoveDirection = Character.Humanoid.MoveDirection
+            local CameraDirection = Camera.CFrame.LookVector
+
+            if MoveDirection.Magnitude > 0 then
+                BodyVelocity.Velocity = (CameraDirection * MoveDirection.Magnitude) * speed
+            else
+                BodyVelocity.Velocity = Vector3.new(0, 0.1, 0)
+            end
+
+            BodyGyro.CFrame = Camera.CFrame
+        end
+    end)
+end
+
+local function StopFly()
+    flying = false
+    if BodyGyro then BodyGyro:Destroy() end
+    if BodyVelocity then BodyVelocity:Destroy() end
+    if LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("Humanoid") then
+        LocalPlayer.Character.Humanoid.PlatformStand = false
+    end
+end
+
+local Toggle = AddToggle(Main, {
+    Name = "طيران",
+    Default = false,
+    Callback = function(Value)
+        if Value then
+            Fly()
+        else
+            StopFly()
+        end
+    end
+})
+local Main = MakeTab({Name = "كشفESP"})
+local ESP = loadstring(game:HttpGet("https://kiriot22.com/releases/ESP.lua"))()
+ESP:Toggle(true)
+ESP.Players = false
+ESP.Names = false
+
+local Toggle = AddToggle(Main, {
+  Name = "فعلة",
+  Default = false,
+  Callback = function(Value)
+    ESP.Players = Value
+  end
+})
+
+local Toggle = AddToggle(Main, {
+  Name = "الاسامي الاعبين",
+  Default = false,
+  Callback = function(Value)
+    ESP.Names = Value
+  end
+})
+AddColorPicker(Main, {
+  Name = "لون ESP ",
+  Default = Color3.fromRGB(255, 255, 0),
+  Callback = function(Value)
+    ESP.Color = Value
+  end
+})
+
+local Main = MakeTab({Name = "☠️الاسماء☠️"})
+local colors = {
+    Color3.fromRGB(255, 0, 0),
+    Color3.fromRGB(255, 127, 0),
+    Color3.fromRGB(255, 255, 0),
+    Color3.fromRGB(0, 255, 0),
+    Color3.fromRGB(0, 0, 255),
+    Color3.fromRGB(75, 0, 130),
+    Color3.fromRGB(148, 0, 211),
+}
+
+local rainbowRunning = false
+
+AddButton(Main, {
+    Name = "اسم ملون",
+    Callback = function()
+        if rainbowRunning then return end
+        rainbowRunning = true
+
+        task.spawn(function()
+            while rainbowRunning do
+                for _, color in ipairs(colors) do
+                    local args = {
+                        [1] = "PickingRPNameColor",
+                        [2] = color,
+                    }
+
+                    game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eColo1r"):FireServer(unpack(args))
+                    task.wait(0.5) --
+                end
+            end
+        end)
+    end
+})
+AddTextBox(Main, {
+    Name = "اسم",
+    Default = "",
+    PlaceholderText = "اكتب اسمك اهنا",
+    ClearTextOnFocus = true,
+    Callback = function(text)
+        local args = {
+            [1] = "RolePlayName",
+            [2] = text
+        }
+
+        game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
+    end
+})
+local section = AddSection(Main, {"☠️اسماء بنات☠️ "})
+
+AddButton(Main, {
+  Name = "شمس",
+  Callback = function()
+    local args = {
+    [1] = "RolePlayName",
+    [2] = "شْمَسَ"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "نٌـوَرَ",
+  Callback = function()
+    local args = {
+    [1] = "RolePlayName",
+    [2] = "نـِِـِـوُر"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "اسراء",
+  Callback = function()
+    local args = {
+    [1] = "RolePlayName",
+    [2] = "أَسَرٌأَء"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+AddButton(Main, {
+  Name = "مريم",
+  Callback = function()
+    local args = {
+    [1] = "RolePlayName",
+    [2] = "مـْـْْـْريمـْـْْـْ"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "زهراء",
+  Callback = function()
+    local args = {
+    [1] = "RolePlayName",
+    [2] = "زَهُرٌأَء"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "فََاَطْـمَِـهْ",
+  Callback = function()
+    local args = {
+    [1] = "RolePlayName",
+    [2] = "فََاَطْـمَِـهْ"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "ليلى",
+  Callback = function()
+    local args = {
+    [1] = "RolePlayName",
+    [2] = "لُـِـِِـِِِـِِـِـيلُـِـِِـِِِـِِـِـﮯ"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "تالين",
+  Callback = function()
+    local args = {
+    [1] = "RolePlayName",
+    [2] = "تـٌـٌٌـآلُـِـِِـِِِـِِـِـينـِِـِـ"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "زينب",
+  Callback = function()
+    local args = {
+    [1] = "RolePlayName",
+    [2] = "ڒٍينـِِـِـبـٌـٌٌـٌٌٌـٌٌـٌ"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "ريم",
+  Callback = function()
+    local args = {
+    [1] = "RolePlayName",
+    [2] = "رٌيُمَ"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "رقية",
+  Callback = function()
+    local args = {
+    [1] = "RolePlayName",
+    [2] = "رٌقُيُة"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "نرجس",
+  Callback = function()
+    local args = {
+    [1] = "RolePlayName",
+    [2] = "نرٍجٍسًٌُُ"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "حور",
+  Callback = function()
+    local args = {
+    [1] = "RolePlayName",
+    [2] = "حـًـًًـًًًـًًـًـوُر"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "شهد",
+  Callback = function()
+    local args = {
+    [1] = "RolePlayName",
+    [2] = "شْهُدُ"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+local section = AddSection(Main, {"☠️اسماء اولاد☠️ "})
+AddButton(Main, {
+  Name = "ايتاشي",
+  Callback = function()
+    local args = {
+    [1] = "RolePlayName",
+    [2] = "آيتـٌـٌٌـآشُـُـُُـُي!"
+}
+
+AddButton(Main, {
+  Name = "إآيَرٍيَن",
+  Callback = function()
+    local args = {
+    [1] = "RolePlayName",
+    [2] = "إآيَرٍيَن"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "مارتن",
+  Callback = function()
+    local args = {
+    [1] = "RolePlayName",
+    [2] = "مـآرٍتــن"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "مهدي",
+  Callback = function()
+    local args = {
+    [1] = "RolePlayName",
+    [2] = "مَهُدُيُ"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "حسين",
+  Callback = function()
+    local args = {
+    [1] = "RolePlayName",
+    [2] = "حَسَيُنِ"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "عـلـي",
+  Callback = function()
+    local args = {
+    [1] = "RolePlayName",
+    [2] = "عٌـِـِِـِـلُـِـِِـِِِـِِـِـي"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+AddButton(Main, {
+  Name = "محمد",
+  Callback = function()
+    local args = {
+    [1] = "RolePlayName",
+    [2] = "مـْـْْـْحـًـًًـًًًـًًـًـمـْـْْـْڊ"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "يوهان",
+  Callback = function()
+    local args = {
+    [1] = "RolePlayName",
+    [2] = "يُوٌهُأَنِ"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+AddButton(Main, {
+  Name = "أَبَهُرٌ",
+  Callback = function()
+    local args = {
+    [1] = "RolePlayName",
+    [2] = "أَبَهُرٌ"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+AddButton(Main, {
+  Name = "سايكو",
+  Callback = function()
+    local args = {
+    [1] = "RolePlayName",
+    [2] = "سَأَيُﮖوٌ"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "عباس",
+  Callback = function()
+    local args = {
+    [1] = "RolePlayName",
+    [2] = "عُبَأَسَ"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+AddButton(Main, {
+  Name = "عمار",
+  Callback = function()
+    local args = {
+    [1] = "RolePlayName",
+    [2] = "عٌـِـِِـِـمـْـْْـْآر"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "شهم",
+  Callback = function()
+    local args = {
+    [1] = "RolePlayName",
+    [2] = "شًـھﻤ"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "A҉F҉K҉",
+  Callback = function()
+    local args = {
+    [1] = "RolePlayName",
+    [2] = "A҉F҉K҉"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "مرتضى",
+  Callback = function()
+    local args = {
+    [1] = "RolePlayName",
+    [2] = "مَرٌتَضِى"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "يوسف✨",
+  Callback = function()
+    local args = {
+    [1] = "RolePlayName",
+    [2] = "يَۈسًٌُُفَ"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "سجاد",
+  Callback = function()
+    local args = {
+    [1] = "RolePlayName",
+    [2] = "سَجِأَدُ"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "توم",
+  Callback = function()
+    local args = {
+    [1] = "RolePlayName",
+    [2] = "تَوٌمَ"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+local Main = MakeTab({Name = "كيم باسات"})
+AddButton(Main, {
+  Name = "شات Premium",
+  Callback = function()
+MakeNotifi({
+  Title = "DARK",
+  Text = "تم صار عندك  شات نجمه حقيقي",
+  Time = 3
+})
+ game:GetService("Players").LocalPlayer.PlayersBag.SilverPass.Value = true
+  end
+})
+AddButton(Main, {
+  Name = "نجمة",
+  Callback = function()
+ MakeNotifi({
+  Title = "DARK",
+  Text = "تم صار عندك نجمه",
+  Time = 3
+})
+game:GetService("Players").LocalPlayer.PlayersBag.SilverPass.Value = true
+  end
+})
+AddButton(Main, {
+  Name = "نجمه مال اطفال",
+  Callback = function()
+ MakeNotifi({
+  Title = "DARK",
+  Text = "تم صار عندك  نجمه مال اطفال ",
+  Time = 3
+})
+ game:GetService("Players").LocalPlayer.PlayersBag.FacePass.Value = true
+  end
+})
+AddButton(Main, {
+  Name = "اغاني",
+  Callback = function()
+MakeNotifi({
+  Title = "DARK",
+  Text = "تم صار عندك  اغاني",
+  Time = 3
+})
+ game:GetService("Players").LocalPlayer.PlayersBag.MusicPass.Valve = true
+  end
+})
+AddButton(Main, {
+  Name = "Fire",
+  Callback = function()
+MakeNotifi({
+  Title = "DARK",
+  Text = "تم صار عندك  Fire",
+  Time = 3
+})
+ game:GetService("Players").LocalPlayer.PlayersBag.FirePass.Valve = true
+  end
+})
+local Main = MakeTab({Name = "اغاني"})
+AddButton(Main, {
+  Name = "اغنية حلوة",
+  Callback = function()
+     local args = {
+    [1] = "SkateBoard"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
+local args = {
+    [1] = "PickingScooterMusicText",
+    [2] = "109188610023287"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
+
+  end
+})
+AddButton(Main, {
+  Name = "سب 1",
+  Callback = function()
+     local args = {
+    [1] = "SkateBoard"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
+local args = {
+    [1] = "PickingScooterMusicText",
+    [2] = "6536444735"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
+  end
+})
+AddButton(Main, {
+  Name = "سب 2",
+  Callback = function()
+     local args = {
+    [1] = "SkateBoard"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
+local args = {
+    [1] = "PickingScooterMusicText",
+    [2] = "8701632845"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
+  end
+})
+AddButton(Main, {
+  Name = "سب 3",
+  Callback = function()
+     local args = {
+    [1] = "SkateBoard"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
+local args = {
+    [1] = "PickingScooterMusicText",
+    [2] = "6713993281"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
+  end
+})
+AddButton(Main, {
+  Name = "سب 4",
+  Callback = function()
+     local args = {
+    [1] = "SkateBoard"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
+local args = {
+    [1] = "PickingScooterMusicText",
+    [2] = "5849978429"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
+  end
+})
+AddButton(Main, {
+  Name = "سب 4",
+  Callback = function()
+     local args = {
+    [1] = "SkateBoard"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
+local args = {
+    [1] = "PickingScooterMusicText",
+    [2] = "7183326833"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
+  end
+})
+AddButton(Main, {
+  Name = "اكس اكس ",
+  Callback = function()
+     local args = {
+    [1] = "SkateBoard"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
+local args = {
+    [1] = "PickingScooterMusicText",
+    [2] = "1836685799"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
+  end
+})
+AddButton(Main, {
+  Name = "Bigger Than Everything",
+  Callback = function()
+     local args = {
+    [1] = "SkateBoard"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
+local args = {
+    [1] = "PickingScooterMusicText",
+    [2] = "15689446558"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
+  end
+})
+AddButton(Main, {
+  Name = "اغنية عراقية",
+  Callback = function()
+     local args = {
+    [1] = "SkateBoard"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
+local args = {
+    [1] = "PickingScooterMusicText",
+    [2] = "135009652401688"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
+  end
+})
+AddButton(Main, {
+  Name = "اغنية عراقية 2",
+  Callback = function()
+     local args = {
+    [1] = "SkateBoard"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
+local args = {
+    [1] = "PickingScooterMusicText",
+    [2] = "11463392143"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
+  end
+})
+local Main = MakeTab({Name = "وفيلنق ونسخ"})
+
+AddSection(Main, {"سكربت نسخ سكنات"})
+AddButton(Main, {
+  Name = "سكربت نسخ قوي",
+  Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/Luarmor123/YHUB-Community/refs/heads/main/BrookhavenCopyAvatar.lua"))()
+  end
+})
+AddSection(Main, {"فيلنق"})
+
+local Players = game:GetService("Players")
+local Player = Players.LocalPlayer
+
+local function GetPlayer(Name)
+    Name = Name:lower()
+    for _, x in next, Players:GetPlayers() do
+        if x ~= Player then
+            if x.Name:lower():match("^" .. Name) or x.DisplayName:lower():match("^" .. Name) then
+                return x
+            end
+        end
+    end
+    return nil
+end
+
+local function Message(_Title, _Text, Time)
+    game:GetService("StarterGui"):SetCore("SendNotification", {Title = _Title, Text = _Text, Duration = Time})
+end
+
+local function SkidFling(TargetPlayer)
+    local Character = Player.Character
+    local Humanoid = Character and Character:FindFirstChildOfClass("Humanoid")
+    local RootPart = Humanoid and Humanoid.RootPart
+
+    local TCharacter = TargetPlayer.Character
+    local THumanoid = TCharacter and TCharacter:FindFirstChildOfClass("Humanoid")
+    local TRootPart = THumanoid and THumanoid.RootPart
+    local THead = TCharacter and TCharacter:FindFirstChild("Head")
+    local Accessory = TCharacter and TCharacter:FindFirstChildOfClass("Accessory")
+    local Handle = Accessory and Accessory:FindFirstChild("Handle")
+
+    if Character and Humanoid and RootPart then
+        if RootPart.Velocity.Magnitude < 50 then
+            getgenv().OldPos = RootPart.CFrame
+        end
+        if THumanoid and THumanoid.Sit then
+            return Message("Error Occurred", "Target is sitting", 5)
+        end
+        if THead then
+            workspace.CurrentCamera.CameraSubject = THead
+        elseif Handle then
+            workspace.CurrentCamera.CameraSubject = Handle
+        else
+            workspace.CurrentCamera.CameraSubject = THumanoid
+        end
+        if not TCharacter:FindFirstChildWhichIsA("BasePart") then
+            return
+        end
+
+        local function FPos(BasePart, Pos, Ang)
+            RootPart.CFrame = CFrame.new(BasePart.Position) * Pos * Ang
+            Character:SetPrimaryPartCFrame(CFrame.new(BasePart.Position) * Pos * Ang)
+            RootPart.Velocity = Vector3.new(9e7, 9e7 * 10, 9e7)
+            RootPart.RotVelocity = Vector3.new(9e8, 9e8, 9e8)
+        end
+
+        local function SFBasePart(BasePart)
+            local TimeToWait = 2
+            local Time = tick()
+            local Angle = 0
+
+            repeat
+                if RootPart and THumanoid then
+                    if BasePart.Velocity.Magnitude < 50 then
+                        Angle = Angle + 100
+
+                        FPos(BasePart, CFrame.new(0, 1.5, 0) + THumanoid.MoveDirection * BasePart.Velocity.Magnitude / 1.25, CFrame.Angles(math.rad(Angle),0 ,0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5, 0) + THumanoid.MoveDirection * BasePart.Velocity.Magnitude / 1.25, CFrame.Angles(math.rad(Angle), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(2.25, 1.5, -2.25) + THumanoid.MoveDirection * BasePart.Velocity.Magnitude / 1.25, CFrame.Angles(math.rad(Angle), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(-2.25, -1.5, 2.25) + THumanoid.MoveDirection * BasePart.Velocity.Magnitude / 1.25, CFrame.Angles(math.rad(Angle), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, 1.5, 0) + THumanoid.MoveDirection,CFrame.Angles(math.rad(Angle), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5, 0) + THumanoid.MoveDirection,CFrame.Angles(math.rad(Angle), 0, 0))
+                        task.wait()
+                    else
+                        FPos(BasePart, CFrame.new(0, 1.5, THumanoid.WalkSpeed), CFrame.Angles(math.rad(90), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5, -THumanoid.WalkSpeed), CFrame.Angles(0, 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, 1.5, THumanoid.WalkSpeed), CFrame.Angles(math.rad(90), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, 1.5, TRootPart.Velocity.Magnitude / 1.25), CFrame.Angles(math.rad(90), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5, -TRootPart.Velocity.Magnitude / 1.25), CFrame.Angles(0, 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, 1.5, TRootPart.Velocity.Magnitude / 1.25), CFrame.Angles(math.rad(90), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5, 0), CFrame.Angles(math.rad(90), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5, 0), CFrame.Angles(0, 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5 ,0), CFrame.Angles(math.rad(-90), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5, 0), CFrame.Angles(0, 0, 0))
+                        task.wait()
+                    end
+                else
+                    break
+                end
+            until BasePart.Velocity.Magnitude > 500 or BasePart.Parent ~= TargetPlayer.Character or TargetPlayer.Parent ~= Players or not TargetPlayer.Character == TCharacter or THumanoid.Sit or Humanoid.Health <= 0 or tick() > Time + TimeToWait
+        end
+
+        workspace.FallenPartsDestroyHeight = 0/0
+
+        local BV = Instance.new("BodyVelocity")
+        BV.Name = "EpixVel"
+        BV.Parent = RootPart
+        BV.Velocity = Vector3.new(9e8, 9e8, 9e8)
+        BV.MaxForce = Vector3.new(1/0, 1/0, 1/0)
+
+        Humanoid:SetStateEnabled(Enum.HumanoidStateType.Seated, false)
+
+        if TRootPart and THead then
+            if (TRootPart.CFrame.p - THead.CFrame.p).Magnitude > 5 then
+                SFBasePart(THead)
+            else
+                SFBasePart(TRootPart)
+            end
+        elseif TRootPart and not THead then
+            SFBasePart(TRootPart)
+        elseif not TRootPart and THead then
+            SFBasePart(THead)
+        elseif not TRootPart and not THead and Accessory and Handle then
+            SFBasePart(Handle)
+        else
+            return Message("Error Occurred", "Target is missing everything", 5)
+        end
+
+        BV:Destroy()
+        Humanoid:SetStateEnabled(Enum.HumanoidStateType.Seated, true)
+        workspace.CurrentCamera.CameraSubject = Humanoid
+
+        repeat
+            RootPart.CFrame = getgenv().OldPos * CFrame.new(0, .5, 0)
+            Character:SetPrimaryPartCFrame(getgenv().OldPos * CFrame.new(0, .5, 0))
+            Humanoid:ChangeState("GettingUp")
+            table.foreach(Character:GetChildren(), function(_, x)
+                if x:IsA("BasePart") then
+                    x.Velocity, x.RotVelocity = Vector3.new(), Vector3.new()
+                end
+            end)
+            task.wait()
+        until (RootPart.Position - getgenv().OldPos.p).Magnitude < 25
+        workspace.FallenPartsDestroyHeight = getgenv().FPDH
+    else
+        return Message("Error Occurred", "Random error", 5)
+    end
+end
+
+local playerNames = {}
+for _, player in ipairs(Players:GetPlayers()) do
+    if player ~= Player then
+        table.insert(playerNames, player.Name)
+    end
+end
+
+local selectedPlayer = nil
+
+local Dropdown = AddDropdown(Main, {
+    Name = "Select Player",
+    Options = playerNames,
+    Default = playerNames[1] or "",
+    Callback = function(Value)
+        selectedPlayer = GetPlayer(Value)
+    end
+})
+
+local Toggle = AddToggle(Main, {
+    Name = "Fling Player",
+    Default = false,
+    Callback = function(Value)
+        if Value then
+            if selectedPlayer then
+                SkidFling(selectedPlayer)
+            else
+                Message("Error", "No player selected", 5)
+            end
+        end
+    end
+})
+
+
+local Main = MakeTab({Name = "تخريب ماب"})
+AddSection(Main, {"تخريب يطلع بس الك"})
+AddButton(Main, {
+  Name = "تخريب",
+  Callback = function()
+    local s = Instance.new("Sky")
+    s.Name = "Sky"
+    s.Parent = game.Lighting
+
+    local skyboxID = 94946856358988
+    local skyboxURL = "http://www.roblox.com/asset/?id="..skyboxID
+
+    s.SkyboxBk = skyboxURL
+    s.SkyboxDn = skyboxURL
+    s.SkyboxFt = skyboxURL
+    s.SkyboxLf = skyboxURL
+    s.SkyboxRt = skyboxURL
+    s.SkyboxUp = skyboxURL
+
+    game.Lighting.TimeOfDay = "12:00:00"
+  end
+})
+AddButton(Main, {
+  Name = "تخريب",
+  Callback = function()
+  local decalID = 94946856358988
+function exPro(root)
+   for _, v in pairs(root:GetChildren()) do
+      if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id="..decalID then
+         v.Parent = nil
+      elseif v:IsA("BasePart") then
+         v.Material = "Plastic"
+         v.Transparency = 0
+         for _, face in ipairs({"Front", "Back", "Right", "Left", "Top", "Bottom"}) do
+            local d = Instance.new("Decal", v)
+            d.Texture = "http://www.roblox.com/asset/?id="..decalID
+            d.Face = face
+         end
+      end
+      exPro(v)
+   end
+end
+
+function asdf(root)
+   for _, v in pairs(root:GetChildren()) do
+      asdf(v)
+   end
+end
+
+exPro(game.Workspace)
+asdf(game.Workspace)
+  end
+})
+AddButton(Main, {
+  Name = "تخريب",
+  Callback = function()
+  -- Configuration --
+local Message = "THIS GAME HAS BEEN HACKED BY CONCHKIDD"
+local mes2text = "YOU ALL MUST PERISH IN MY FIRE OF DEATH!"
+
+-- Don't touch unless you know what You're doing --
+
+local mes = Instance.new("Hint")
+mes.Parent = workspace
+mes.Text = Message
+game.Lighting:ClearAllChildren()
+game.Lighting.FogEnd = 100
+game.Lighting.FogColor = Color3.new(0, 0, 0)
+local sound = Instance.new("Sound")
+sound.Parent = workspace
+sound.Looped = true
+sound.PlaybackSpeed = 0.3
+sound.Volume = 5
+sound.SoundId = "rbxassetid://1842908121"
+sound:Play()
+local mes2 = Instance.new("Message")
+mes2.Parent = workspace
+mes2.Text = mes2text
+for i, v in pairs(workspace:GetDescendants()) do
+	if v:IsA("BasePart") and v.Parent:IsA("Model") then
+		local outline = Instance.new("SelectionBox")
+		v.Name = Message
+		outline.Parent = v
+		outline.Adornee = v
+		outline.Color3 = Color3.new(1, 1, 1)
+		v.Color = Color3.new(0, 0, 0)
+		local fire = Instance.new("Fire")
+		fire.Parent = v
+		fire.Size = 100
+		fire.Color = Color3.new(1, 1, 1)
+		local sky = Instance.new("Sky")
+		sky.CelestialBodiesShown = false
+		sky.Parent = game.Lighting
+		sky.SkyboxUp = "http://www.roblox.com/asset/?id=99915080584370"
+		sky.SkyboxBk = "http://www.roblox.com/asset/?id=99915080584370"
+		sky.SkyboxDn = "http://www.roblox.com/asset/?id=99915080584370"
+		sky.SkyboxRt = "http://www.roblox.com/asset/?id=99915080584370"
+		sky.SkyboxLf = "http://www.roblox.com/asset/?id=99915080584370"
+		sky.SkyboxFt = "http://www.roblox.com/asset/?id=99915080584370"
+		local bill = Instance.new("BillboardGui")
+		local Text = Instance.new("TextLabel")
+		bill.Parent = v
+		bill.Adornee = v
+		bill.Size = UDim2.new(0, 200, 0, 200)
+		Text.Parent = bill
+		Text.Size = UDim2.new(0, 200, 0, 200)
+		Text.BackgroundTransparency = 1
+		Text.TextScaled = false
+		Text.TextSize = 30
+		Text.TextColor3 = Color3.new(1, 0, 0.0156863)
+		Text.TextTransparency = 0
+		Text.Font = Enum.Font.Cartoon
+		Text.Text = Message
+	end
+end
+  end
+})
+local Main = MakeTab({Name = "اكواد ملابس"})
+AddButton(Main, {
+  Name = "قفازات ايد سوداء",
+  Callback = function()
+  local args = {
+    [1] = 9239689111
+}
+
+game:GetService("ReplicatedStorage").Remotes.Wear:InvokeServer(unpack(args))
+
+  end
+})
+AddButton(Main, {
+  Name = "سترة سوداء",
+  Callback = function()
+  local args = {
+    [1] = 89892588488089
+}
+
+game:GetService("ReplicatedStorage").Remotes.Wear:InvokeServer(unpack(args))
+
+  end
+})
+AddButton(Main, {
+  Name = "سترة وردي كيوت",
+  Callback = function()
+  local args = {
+    [1] = 10789914680
+}
+
+game:GetService("ReplicatedStorage").Remotes.Wear:InvokeServer(unpack(args))
+
+  end
+})
+AddButton(Main, {
+  Name = "قفازات ايد سودة 1",
+  Callback = function()
+  local args = {
+    [1] = 10789914680
+}
+
+game:GetService("ReplicatedStorage").Remotes.Wear:InvokeServer(unpack(args))
+
+  end
+})
+AddButton(Main, {
+  Name = "قفازات ايد سودة 2",
+  Callback = function()
+  local args = {
+    [1] = 11363898043
+}
+
+game:GetService("ReplicatedStorage").Remotes.Wear:InvokeServer(unpack(args))
+
+  end
+})
+AddButton(Main, {
+  Name = "قفازات ايد سودة 3",
+  Callback = function()
+  local args = {
+    [1] = 10791180072
+}
+
+game:GetService("ReplicatedStorage").Remotes.Wear:InvokeServer(unpack(args))
+
+  end
+})
+AddButton(Main, {
+  Name = "قفازات ايد بيضة",
+  Callback = function()
+  local args = {
+    [1] = 10871965173
+}
+
+game:GetService("ReplicatedStorage").Remotes.Wear:InvokeServer(unpack(args))
+
+  end
+})
+AddButton(Main, {
+  Name = "قفازات يد زهري",
+  Callback = function()
+  local args = {
+    [1] = 10789939838
+}
+
+game:GetService("ReplicatedStorage").Remotes.Wear:InvokeServer(unpack(args))
+
+  end
+})
+AddButton(Main, {
+  Name = "قفازات يد حمراء",
+  Callback = function()
+  local args = {
+    [1] = 12379676852
+}
+
+game:GetService("ReplicatedStorage").Remotes.Wear:InvokeServer(unpack(args))
+
+  end
+})
+AddButton(Main, {
+  Name = "اضافر سوداء",
+  Callback = function()
+  local args = {
+    [1] = 12825022709
+}
+
+game:GetService("ReplicatedStorage").Remotes.Wear:InvokeServer(unpack(args))
+
+  end
+})
